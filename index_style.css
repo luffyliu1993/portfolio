@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #DCDCDC;
+    height: 100px;
+    /*box-shadow: 2px 2px yellow;*/
+}
+    #top_nav{
+        margin-left: 950px;
+    }
+        #top_nav li{
+            width: 100px;
+            height: 40px;
+            border-radius: 0 0 5px 5px;
+            display: inline-block;
+            border: 2px solid #F0FFF0;
+            margin-top: -2px;
+            text-align: center;
+            font-size: 15pt;
+            margin-left: -5px;
+        }
+        #top_nav li a{
+            text-decoration: none;
+            vertical-align: middle;
+        }
